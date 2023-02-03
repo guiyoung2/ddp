@@ -72,7 +72,7 @@ body {
   height: 16px;
   margin-top: 17px;
   margin-left: 5px;
-  background: url("ddp_img/top_logo.png") no-repeat;
+  background: url("../ddp_img/top_logo.png") no-repeat;
 }
 /* /헤더 상단 로고 */
 /* 헤더 상당 아이콘 버튼 */
@@ -92,23 +92,23 @@ body {
   margin-right: 7px;
 }
 .top_btns > ul > li:nth-child(1) > a {
-  background: url("ddp_img/lang.png") no-repeat;
+  background: url("../ddp_img/lang.png") no-repeat;
   background-size: cover;
 }
 .top_btns > ul > li:nth-child(2) > a {
-  background: url("ddp_img/vr.png") no-repeat;
+  background: url("../ddp_img/vr.png") no-repeat;
   background-size: cover;
 }
 .top_btns > ul > li:nth-child(3) > a {
-  background: url("ddp_img/mypage.png") no-repeat;
+  background: url("../ddp_img/mypage.png") no-repeat;
   background-size: cover;
 }
 .top_btns > ul > li:nth-child(4) > a {
-  background: url("ddp_img/membership.png") no-repeat;
+  background: url("../ddp_img/membership.png") no-repeat;
   background-size: cover;
 }
 .top_btns > ul > li:nth-child(5) > a {
-  background: url("ddp_img/store.png") no-repeat;
+  background: url("../ddp_img/store.png") no-repeat;
   background-size: cover;
 }
 /* /헤더 상당 아이콘 버튼 */
@@ -130,7 +130,7 @@ body {
   display: block;
   width: 81px;
   height: 42px;
-  background: url("ddp_img/ddp_logo1.png") no-repeat;
+  background: url("../ddp_img/ddp_logo1.png") no-repeat;
   background-size: cover;
   transform: scale(0.8);
 }
@@ -153,7 +153,7 @@ body {
   display: block;
   width: 35px;
   height: 35px;
-  background: url("ddp_img/search.png") no-repeat;
+  background: url("../ddp_img/search.png") no-repeat;
   background-size: cover;
 }
 .bt_inner > .bt_btns > ul > li:nth-child(2) {
@@ -165,7 +165,7 @@ body {
   display: block;
   width: 35px;
   height: 35px;
-  background: url("ddp_img/burger.png") no-repeat;
+  background: url("../ddp_img/burger.png") no-repeat;
   background-size: cover;
 }
 /* /헤더 하단 */
@@ -302,7 +302,7 @@ body {
   height: 25px;
   line-height: 24px;
   font-size: 14px;
-  background: #000 url("ddp_img/right1.png") no-repeat 96% center;
+  background: #000 url("../ddp_img/right1.png") no-repeat 96% center;
   background-size: 10px 10px;
   border: 1px solid #696969;
   border-radius: 10px;
@@ -364,7 +364,7 @@ body {
   width: 30px;
   height: 30px;
   display: block;
-  background: url("ddp_img/left.png") no-repeat;
+  background: url("../ddp_img/left.png") no-repeat;
   background-size: cover;
 }
 .notice_news > .ddp_news > .right {
@@ -380,7 +380,7 @@ body {
   width: 30px;
   display: block;
   height: 30px;
-  background: url("ddp_img/right3.png") no-repeat;
+  background: url("../ddp_img/right3.png") no-repeat;
   background-size: cover;
 }
 .notice_news > .ddp_news > .news_bt {
@@ -447,7 +447,7 @@ body {
   font-size: 12px;
   line-height: 27px;
   padding-right: 25%;
-  background: url("ddp_img/right3.png") no-repeat right center;
+  background: url("../ddp_img/right3.png") no-repeat right center;
   background-size: 10px 10px;
 }
 .info_area {
@@ -466,7 +466,7 @@ body {
 }
 .info_area > .time_info > .time {
   margin: 4% 8%;
-  background: url("ddp_img/clock_icon.png") no-repeat left center;
+  background: url("../ddp_img/clock_icon.png") no-repeat left center;
   background-size: 40px 40px;
   padding-left: 14%;
   padding-right: 2%;
@@ -488,7 +488,7 @@ body {
 }
 .info_area > .time_info > .rest {
   margin: 4% 8%;
-  background: url("ddp_img/calender_icon.png") no-repeat left center;
+  background: url("../ddp_img/calender_icon.png") no-repeat left center;
   background-size: 40px 40px;
   padding-left: 14%;
   padding-right: 2%;
@@ -564,25 +564,25 @@ body {
 .main_footer > .footer_top > .sns_area > ul > li:nth-child(1) > a {
   width: 40px;
   height: 40px;
-  background: url("ddp_img/facebook1.png") no-repeat;
+  background: url("../ddp_img/facebook1.png") no-repeat;
   background-size: cover;
 }
 .main_footer > .footer_top > .sns_area > ul > li:nth-child(2) > a {
   width: 40px;
   height: 40px;
-  background: url("ddp_img/insta1.png") no-repeat;
+  background: url("../ddp_img/insta1.png") no-repeat;
   background-size: cover;
 }
 .main_footer > .footer_top > .sns_area > ul > li:nth-child(3) > a {
   width: 40px;
   height: 40px;
-  background: url("ddp_img/youtube1.png") no-repeat;
+  background: url("../ddp_img/youtube1.png") no-repeat;
   background-size: cover;
 }
 .main_footer > .footer_top > .sns_area > ul > li:nth-child(4) > a {
   width: 40px;
   height: 40px;
-  background: url("ddp_img/blog1.png") no-repeat;
+  background: url("../ddp_img/blog1.png") no-repeat;
   background-size: cover;
 }
 .main_footer > .footer_top > nav {
@@ -644,7 +644,7 @@ body {
   width: 80px;
   display: block;
   text-align: left;
-  background: url("ddp_img/down_wt.png") no-repeat right bottom;
+  background: url("../ddp_img/down_wt.png") no-repeat right bottom;
   background-size: 14px 14px;
   position: absolute;
   right: 0;
@@ -661,7 +661,7 @@ body {
   font-size: 10px;
   padding-top: 5px;
   /* visibility: hidden; */
-  background: url("ddp_img/right1.png") no-repeat right 9px;
+  background: url("../ddp_img/right1.png") no-repeat right 9px;
   background-size: 8px 8px;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -700,7 +700,7 @@ body {
   height: auto;
   padding-top: 20px;
   margin: 0 8%;
-  background: url("ddp_img/footer_logo.png") no-repeat right 20px;
+  background: url("../ddp_img/footer_logo.png") no-repeat right 20px;
   background-size: 80px 40px;
 }
 .main_footer > .footer_bottom > p {
@@ -777,21 +777,11 @@ body {
   height: 30px;
   position: relative;
 }
-/* .search_area > .search_box > .search_btn > a:nth-child(1) {
-  display: block;
-  position: absolute;
-  top: 7px;
-  right: 52px;
-  width: 15px;
-  height: 15px;
-  background: url("ddp_img/cancle.png") no-repeat center center;
-  background-size: cover;
-} */
 .search_area > .search_box > .search_btn > a {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: url("ddp_img/right_arrow.png") no-repeat center center;
+  background: url("../ddp_img/right_arrow.png") no-repeat center center;
   background-size: 30px 30px;
 }
 .search_area > .popular_search {
@@ -809,14 +799,3 @@ body {
 .search_area > .popular_search > ol > li > a {
   display: block;
 }
-/* .sub_bg {
-  position: absolute;
-  background: #fff;
-  height: 100vh;
-  width: 100%;
-  opacity: 0.8;
-  z-index: -1;
-  display: none;
-  border-bottom: 1px solid #000;
-  box-shadow: 0 2px 2px -2px #000;
-} */
