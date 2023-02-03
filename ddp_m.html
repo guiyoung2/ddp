@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <title>DDP-mobile</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="bxslider_m/js/jquery.bxslider.js"></script>
+    <script src="js/ddp_m.js"></script>
+    <link rel="stylesheet" href="bxslider_m/css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="ddp_m_style.css" />
+    <script>
+      $(function () {
+        /*bxslider*/
+        setTimeout(function () {
+          $(".slide_area").bxSlider({
+            auto: true,
+            speed: 700,
+            auto: true,
+            autoControls: true,
+            // adaptiveHeight: false,
+          });
+        }, 20);
+      });
+    </script>
+  </head>
+  <body>
+    <header id="main_header">
+      <div class="gnb_inner">
+        <div class="mid_area">
+          <div class="top_inner">
+            <div class="top_logo">
+              <p class="seuol_img">
+                <a
+                  href="https://www.seouldesign.or.kr/?menuno=150"
+                  title="서울디자인재단"
+                  target="_blank"
+                ></a>
+              </p>
+            </div>
+            <nav class="top_btns">
+              <ul class="gnb_top_btns">
+                <li>
+                  <a href="javascript:;" class="btn_global blind">언어</a>
+                </li>
+                <li><a href="javascript:;" class="btn_vr blind">VR</a></li>
+                <li>
+                  <a href="javascript:;" class="btn_mypage blind">마이페이지</a>
+                </li>
+                <li>
+                  <a href="javascript:;" class="btn_membership blind">멤버쉽</a>
+                </li>
+                <li>
+                  <a href="javascript:;" class="btn_store blind">스토어</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="bt_inner">
+          <h1 class="bt_logo blind">
+            <a
+              href="https://ddp.or.kr/?menuno=228"
+              title="DDP메인"
+              target="_blank"
+              >DDP메인으로 가기</a
+            >
+          </h1>
+          <div class="bt_btns">
+            <ul>
+              <li class="blind">
+                <a class="search" href="javascript:;">검색</a>
+              </li>
+              <li class="blind">
+                <a class="toggle" href="javascript:;">전체메뉴</a>
+              </li>
+            </ul>
+          </div>
+          <div class="search_area">
+            <div class="search_box">
+              <input
+                autocomplete="off"
+                type="search"
+                placeholder="통합검색"
+                id="searchbox"
+              />
+              <span class="search_btn">
+                <!-- <a class="blind" href="javascript:;">취소</a> -->
+                <a class="blind" href="javascript:;">검색하기</a>
+              </span>
+            </div>
+            <div class="popular_search">
+              <h4>인기 검색어</h4>
+              <ol>
+                <li><a href="javascript:;">DDP</a></li>
+                <li><a href="javascript:;">서울디자인재단</a></li>
+                <li><a href="javascript:;">디자인 뮤지엄</a></li>
+                <li><a href="javascript:;">디자인 스토어</a></li>
+                <li><a href="javascript:;">서울 디자인 창업센터</a></li>
+                <li><a href="javascript:;">디자인 페어</a></li>
+                <li><a href="javascript:;">서울 새 활용 플라자</a></li>
+                <li><a href="javascript:;">워크샵</a></li>
+                <li><a href="javascript:;">서울디자인파크</a></li>
+                <li><a href="javascript:;">동대문</a></li>
+              </ol>
+            </div>
+          </div>
+          <nav class="gnb_main_menu">
+            <ul class="menu_list">
+              <li class="menu">
+                <a href="javascript:;">DDP 안내</a>
+                <div class="sub">
+                  <ul>
+                    <li><a href="javascript:;">DDP 소개</a></li>
+                    <li>
+                      <a href="javascript:;">DDP 소식</a>
+                      <ul class="sub_depth">
+                        <li><a href="javascript:;">공지사항-</a></li>
+                        <li><a href="javascript:;">이벤트-</a></li>
+                        <li><a href="javascript:;">갤러리-</a></li>
+                        <li><a href="javascript:;">보도자료-</a></li>
+                        <li><a href="javascript:;">뉴스레터-</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="javascript:;">DDP 사람들</a></li>
+                    <li><a href="javascript:;">오시는 길</a></li>
+                    <li><a href="javascript:;">길 안내 서비스</a></li>
+                    <li><a href="javascript:;">DDP멤버십</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu">
+                <a href="javascript:;">프로그램</a>
+                <div class="sub">
+                  <ul>
+                    <li><a href="javascript:;">전체 일정 보기</a></li>
+                    <li><a href="javascript:;">전시</a></li>
+                    <li><a href="javascript:;">행사</a></li>
+                    <li><a href="javascript:;">키즈</a></li>
+                    <li><a href="javascript:;">상설</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu">
+                <a href="javascript:;">공간안내</a>
+                <div class="sub">
+                  <ul>
+                    <li><a href="javascript:;">VR 지도</a></li>
+                    <li><a href="javascript:;">층별 지도</a></li>
+                    <li>
+                      <a href="javascript:;">시설</a>
+                      <ul>
+                        <li><a href="javascript:;">전체시설안내-</a></li>
+                        <li><a href="javascript:;">스페이스-</a></li>
+                        <li><a href="javascript:;">키즈존(디키디키)-</a></li>
+                        <li><a href="javascript:;">푸드 (F&B)-</a></li>
+                        <li><a href="javascript:;">스토어-</a></li>
+                        <li><a href="javascript:;">안내센터-</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="javascript:;">대관공간</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu">
+                <a href="javascript:;">고객지원</a>
+                <div class="sub">
+                  <ul>
+                    <li><a href="javascript:;">자주묻는질문</a></li>
+                    <li><a href="javascript:;">고객문의</a></li>
+                    <li><a href="javascript:;">이용약관</a></li>
+                    <li><a href="javascript:;">행정서비스 현장</a></li>
+                    <li><a href="javascript:;">안전보건경영</a></li>
+                    <li><a href="javascript:;">사이트맵</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <!-- <div class="sub_bg"></div> -->
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="slide_area">
+        <a href="javascipt:;"><img src="ddp_img/slide5_1.jpeg" alt="" /></a>
+        <a href="javascipt:;"><img src="ddp_img/slide1_2.jpeg" alt="" /></a>
+        <a href="javascipt:;"><img src="ddp_img/slide2_1.jpeg" alt="" /></a>
+        <a href="javascipt:;"><img src="ddp_img/slide3_2.jpeg" alt="" /></a>
+        <a href="javascipt:;"><img src="ddp_img/slide4_2.jpeg" alt="" /></a>
+      </div>
+      <section class="content_area">
+        <h2>프로그램</h2>
+        <p>새롭고 다양한 디자인 경험</p>
+        <div class="content_wrap">
+          <ul class="program_wrap">
+            <li class="content">
+              <a href="javascript:;">
+                <span class="img_area">
+                  <img src="ddp_img/img1.jpeg" alt="반고흐 작품" />
+                </span>
+                <div class="content_txt">
+                  <div class="content_kind">전시</div>
+                  <h4>DDP 빈센트 반고흐의 명화 기획전</h4>
+                  <span>2022.10.01 ~ 2022.11.01</span>
+                </div>
+              </a>
+            </li>
+            <li class="content">
+              <a href="javascript:;">
+                <span class="img_area">
+                  <img src="ddp_img/img2.jpeg" alt="" />
+                </span>
+                <div class="content_txt">
+                  <div class="content_kind">행사</div>
+                  <h4>DDP 잔디언덕 시네마</h4>
+                  <span>2022.10.29 ~ 2022.10.31</span>
+                </div>
+              </a>
+            </li>
+            <li class="content">
+              <a href="javascript:;">
+                <span class="img_area">
+                  <img src="ddp_img/img3.jpeg" alt="반고흐 작품" />
+                </span>
+                <div class="content_txt">
+                  <div class="content_kind">행사</div>
+                  <h4>DDPx갓생기획 팝업스토어</h4>
+                  <span>2022.10.14 ~ 2022.11.13</span>
+                </div>
+              </a>
+            </li>
+            <li class="content">
+              <a href="javascript:;">
+                <span class="img_area">
+                  <img src="ddp_img/img4.jpeg" alt="반고흐 작품" />
+                </span>
+                <div class="content_txt">
+                  <div class="content_kind">전시</div>
+                  <h4>장 프랑수아 밀레 특별전</h4>
+                  <span>2022.10.27 ~ 2022.11.23</span>
+                </div>
+              </a>
+            </li>
+            <li class="content">
+              <a href="javascript:;">
+                <span class="img_area">
+                  <img src="ddp_img/img5.jpeg" alt="반고흐 작품" />
+                </span>
+                <div class="content_txt">
+                  <div class="content_kind">행사</div>
+                  <h4>DDP, FASHION AND YOU</h4>
+                  <span>2022.10.07 ~ 2022.12.04</span>
+                </div>
+              </a>
+            </li>
+            <li class="content">
+              <a href="javascript:;">
+                <span class="img_area">
+                  <img src="ddp_img/img6.jpeg" alt="반고흐 작품" />
+                </span>
+                <div class="content_txt">
+                  <div class="content_kind">전시</div>
+                  <h4>레오나르도 다빈치 기획전</h4>
+                  <span>2022.10.18 ~ 2022.11.30</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="btn_more">
+            <a href="javascript:;">
+              <button>프로그램 더보기</button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="notice_news">
+        <div class="ddp_news">
+          <h2>DDP 소식</h2>
+          <p class="news_top">DDP의 최근 공지사항을 확인해보세요</p>
+          <div class="news_img">
+            <img src="ddp_img/slide3.jpeg" alt="" />
+            <img src="ddp_img/slide5.jpeg" alt="" />
+            <img src="ddp_img/slide2.jpeg" alt="" />
+            <img src="ddp_img/slide4.jpeg" alt="" />
+          </div>
+          <div class="left"><a href="javascript:;"></a></div>
+          <div class="right"><a href="javascript:;"></a></div>
+          <!-- <p class="news_bt">DDP 빛의 정원</p> -->
+        </div>
+        <div class="notice_wrap">
+          <h2>공지사항</h2>
+          <div class="notice">
+            <ul>
+              <li>
+                <a href="javascript:;">
+                  <p class="tag_txt">일반공지</p>
+                  <p class="notice_main_txt">
+                    반려동물도 함께 즐기는 디자인 행사 [서울디자인 2022]
+                  </p>
+                  <p class="notice_date">2022-11-14</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <p class="tag_txt">채용공고</p>
+                  <p class="notice_main_txt">
+                    2022년 하반기 정규직 직원 채용 서류전형 결과 안내
+                  </p>
+                  <p class="notice_date">2022-11-11</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <p class="tag_txt">일반공지</p>
+                  <p class="notice_main_txt">
+                    2022디자인스타트업패키지 5회차 세미나&워크숍 모집안내
+                  </p>
+                  <p class="notice_date">2022-11-07</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <p class="tag_txt">채용공고</p>
+                  <p class="notice_main_txt">
+                    2022년 서울디자인재단 휴직대체 계약직 직원 채용 최종합격
+                    예정자 발표안내
+                  </p>
+                  <p class="notice_date">2022-10-30</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <p class="tag_txt">일반공지</p>
+                  <p class="notice_main_txt">
+                    DDP디자인스토어 2022년 제4차 우수디자인 제품 입점 공모
+                  </p>
+                  <p class="notice_date">2022-10-29</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="more">
+            <a href="javascript:;">더 보기</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="info_area">
+        <div class="time_info">
+          <h2>운영시간 안내</h2>
+          <div class="time">
+            <p>여는시간<span>10:00</span></p>
+            <p>닫는시간<span>20:00</span></p>
+          </div>
+          <div class="rest">
+            <p>쉬는날<span>1월 1일/ 설날,추석 당일</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="nL_wrapper">
+        <div class="nL_wrap">
+          <h2>DDP의 뉴스레터를 받아보세요.</h2>
+          <div class="sub_area">
+            <input
+              type="text"
+              class="sub_box"
+              placeholder="이메일 주소를 입력해 주세요."
+            />
+            <a href="javascript:;">구독신청 / 취소</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="main_footer">
+      <div class="footer_top">
+        <div class="sns_area">
+          <ul class="blind">
+            <li><a href="javascript:;">페이스북</a></li>
+            <li><a href="javascript:;">인스타그램</a></li>
+            <li><a href="javascript:;">유튜브</a></li>
+            <li><a href="javascript:;">블로그</a></li>
+          </ul>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="javascript:;">개인정보처리방침</a></li>
+            <li><a href="javascript:;">이메일무단수집거부</a></li>
+            <li><a href="javascript:;">행동서비스 현장</a></li>
+            <li><a href="javascript:;">고객지원</a></li>
+            <li><a href="javascript:;">사이트맵</a></li>
+          </ul>
+        </nav>
+        <div class="family_site">
+          <a href="javascript:;" class="family_site_click">FAMILY SITE</a>
+          <ul class="family_site_ul">
+            <li class="site">
+              <a href="javascript:;"
+                >서울디자인재단<span class="right"></span
+              ></a>
+            </li>
+            <li class="site">
+              <a href="javascript:;"
+                >서울새활용프라자<span class="right"></span
+              ></a>
+            </li>
+            <li class="site">
+              <a href="javascript:;"
+                >서울디자인창업센터<span class="right"></span
+              ></a>
+            </li>
+            <li class="site">
+              <a href="javascript:;"
+                >서울디자인2022<span class="right"></span
+              ></a>
+            </li>
+            <li class="site">
+              <a href="javascript:;"
+                >휴먼시티디자인어워드<span class="right"></span
+              ></a>
+            </li>
+            <li class="site">
+              <a href="javascript:;"
+                >DDP디자인페어<span class="right"></span
+              ></a>
+            </li>
+            <li class="site">
+              <a href="javascript:;"
+                >DDP디자인스토어<span class="right"></span
+              ></a>
+            </li>
+            <li class="site">
+              <a href="javascript:;">DDP멤버십<span class="right"></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <p class="footer_addr">
+          [04566] 서울시 중구 을지로 281 <br />
+          대표이사 : 이경돈 <br />
+          대표전화 02)2153-0000 <br />
+          사업자번호 : 201-82-08464<br />
+          COPYRIGHT ⓒ 2021 DDP. ALL RIGHTS RESERVED.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
